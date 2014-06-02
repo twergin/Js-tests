@@ -17,12 +17,12 @@ module.exports = function(grunt) {
       },
       dist: {
         files: {
-          'dist/<%= pkg.name %>.min.js': ['<%= concat.dist.dest %>']
+          'FizzBuzz.min.js': ['FizzBuzz.js']
         }
       }
     },
     jshint: {
-      files: ['Gruntfile.js', 'src/**/*.js', 'test/**/*.js'],
+      files: ['Gruntfile.js', 'FizzBuzz.js', 'test/**/*.js'],
       options: {
         // options here to override JSHint defaults
         globals: {

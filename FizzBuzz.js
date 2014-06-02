@@ -12,6 +12,6 @@ var fizzBuzz = function() {
 		else {
 			console.log(i); }
 	}
-}
+};
 
 fizzBuzz();
