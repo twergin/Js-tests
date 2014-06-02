@@ -7,8 +7,8 @@
     "grunt-contrib-nodeunit": "~0.3.3",
     "grunt-contrib-uglify": "~0.4.0"
   },
-  "repository" :
-  { "type" : "git"
-  , "url" : "https://github.com/twergin/Js-tests"
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/twergin/Js-tests"
   }
 }
